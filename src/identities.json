@@ -1,0 +1,80 @@
+[
+  {
+    "role": "villager",
+    "faction": "T",
+    "winConditions": "All evil members are lynched/killed",
+    "description": "Lynch the WEREWOLVES before they kill off the village. You sleep through the Night Phase and vote to lynch a player during the Day Phase. \n\n You win when all evil villagers are dead."
+  },
+  {
+    "role": "seer",
+    "faction": "T",
+    "winConditions": "All evil members are lynched/killed",
+    "description": "Discover the WEREWOLVES and inform the town. During each Night Phase, you will wake up and select a player. The MODERATOR will secretly show you his/her true identity. \n\n You win when all evil villagers are dead."
+  },
+  {
+    "role": "witch",
+    "faction": "T",
+    "winConditions": "All evil members are lynched/killed",
+    "description": "During each Night Phase, the MODERATOR will secretly show you the latest victim of the WEREWOLVES. You have two potions – one to save and one to kill. Each potion can be used only once per game. You may save the latest victim or kill another player. \n You win when all evil villagers are dead."
+  },
+  {
+    "role": "monarch",
+    "faction": "T",
+    "winConditions": "All evil members are lynched/killed",
+    "description": "Take control of the kingdom with the sole power to decide who will be lynched. Debate is allowed, but the  MONARCH makes the final decision. \n\n You win when all evil villagers are dead.",
+    "maxCount": 1
+  },
+  {
+    "role": "executioner",
+    "faction": "T",
+    "winConditions": "All evil members are lynched/killed",
+    "description": "Lynch the WEREWOLVES before they kill off the village. The first time you’re chosen by the town to be lynched, you may choose another player to be lynched in your stead. \n\n You win when all evil villagers are dead."
+  },
+  {
+    "role": "hooker",
+    "faction": "T",
+    "winConditions": "All evil members are lynched/killed",
+    "description": "Every Night Phase, you must choose a player to lie with. If you choose a WEREWOLF or VAMPIRE, you will die. \n\n You may not select the same player two nights in a row.\n\n You win when all evil villagers are dead.",
+    "maxCount": 1
+  },
+  {
+    "role": "werewolf",
+    "faction": "W",
+    "winConditions": "Kill all villagers, vampires, cultist, lone werewolf",
+    "description": "Kill off the VILLAGERS and avoid detection. You wake up during the Night Phase and secretly select a player to eat. \n\n You win when all VILLAGERS, CULTIST , VAMPIRES AND LONE WEREWOLF are dead. "
+  },
+  {
+    "role": "minions",
+    "faction": "W",
+    "winConditions": "Kill all villagers, vampires, cultist, lone werewolf",
+    "description": "Work with the WEREWOLVES to kill the villagers. During the first Night Phase, you will learn who are the wolves, but they will not know who you are. \n\n You win with the werewolves.",
+    "maxCount": 1
+  },
+  {
+    "role": "loneWerewolf",
+    "faction": "W",
+    "winConditions": "Be the last wolf standing",
+    "description": "Kill off everyone and avoid detection. Every second Night Phase, you will wake up a second time for a lone hunt and may choose to devour a WEREWOLF. \n\n You win when everyone else is dead."
+  },
+  {
+    "role": "zatch",
+    "faction": "T",
+    "winConditions": "Get lynched on the first Day phase",
+    "description": "Subtly convince the VILLAGERS to turn against you. You win only if you’re lynched during the first Day Phase. After the first Day Phase, you become a normal VILLAGER and win when all evil villagers are dead. Each night, you will wake up and “convert” one player that the MODERATER will then secretly tap. \n\n Converted players retain their Identity. \n\n You win when every player alive has been converted.",
+    "maxCount": 1
+  },
+  {
+    "role": "masterVampire",
+    "faction": "V",
+    "winConditions": "Village is left with only vampires",
+    "description": "You wake each night and turn a player to a Vampire. They will wake to identify one another but will not who you are. If you are killed, no more Vampires are turned. \n\n You win when the village is left with only Vampires.",
+    "maxCount": 1
+  },
+  {
+    "role": "cultist",
+    "faction": "C",
+    "winConditions": "All villagers are members of your cult",
+    "description": "Each night, you will wake up and “convert” one player that the MODERATER will then secretly tap. \n\n Converted players retain their Identity. \n\n You win when every player alive has been converted.",
+    "maxCount": 1
+  }
+]
