@@ -3,13 +3,13 @@
     "role": "villager",
     "faction": "T",
     "winConditions": "All evil members are lynched/killed",
-    "description": "Lynch the WEREWOLVES before they kill off the village. You sleep through the Night Phase and vote to lynch a player during the Day Phase. \n\n You win when all evil villagers are dead."
+    "description": "*Lynch the WEREWOLVES before they kill off the village.*\n\n You sleep through the Night Phase and vote to lynch a player during the Day Phase. \n\n You win when all evil villagers are dead."
   },
   {
     "role": "seer",
     "faction": "T",
     "winConditions": "All evil members are lynched/killed",
-    "description": "Discover the WEREWOLVES and inform the town. During each Night Phase, you will wake up and select a player. The MODERATOR will secretly show you his/her true identity. \n\n You win when all evil villagers are dead."
+    "description": "*Discover the WEREWOLVES and inform the town.* \n During each Night Phase, you will wake up and select a player. The MODERATOR will secretly show you his/her true identity. \n\n You win when all evil villagers are dead."
   },
   {
     "role": "witch",
@@ -44,7 +44,7 @@
     "description": "Kill off the VILLAGERS and avoid detection. You wake up during the Night Phase and secretly select a player to eat. \n\n You win when all VILLAGERS, CULTIST , VAMPIRES AND LONE WEREWOLF are dead. "
   },
   {
-    "role": "minions",
+    "role": "minion",
     "faction": "W",
     "winConditions": "Kill all villagers, vampires, cultist, lone werewolf",
     "description": "Work with the WEREWOLVES to kill the villagers. During the first Night Phase, you will learn who are the wolves, but they will not know who you are. \n\n You win with the werewolves.",

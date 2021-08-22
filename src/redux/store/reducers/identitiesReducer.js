@@ -1,11 +1,17 @@
-import {} from "../../constants";
-import { UPDATE_VILLAGER } from "../../constants/identities";
+import {
+  CREATE_CULTIST,
+  CREATE_MASTER_VAMPIRE,
+  REMOVE_MASTER_VAMPIRE,
+  REMOVE_CULTIST,
+  UPDATE_VILLAGER,
+  UPDATE_WEREWOLF,
+} from "../../constants/identities";
 
 const initialState = {
   werewolves: {
     werewolf: 1,
     loneWerewolf: 0,
-    minions: 1,
+    minion: 1,
   },
   villagers: {
     villager: 2,
@@ -14,6 +20,7 @@ const initialState = {
     monarch: 0,
     executioner: 0,
     hooker: 0,
+    zatch: 0,
   },
   vampires: {
     masterVampire: 0,
@@ -21,24 +28,52 @@ const initialState = {
   cultists: {
     cultist: 0,
   },
-  troll: {
-    zatch: 0,
-  },
 };
 
 const gameReducer = (state = initialState, action) => {
-  console.log(action);
   switch (action.type) {
     case UPDATE_VILLAGER:
-      console.log({
-        [action.payload.role]: action.payload.value,
-        ...state.villagers,
-      });
       return {
         ...state,
         villagers: {
-          [action.payload.role]: action.payload.value,
           ...state.villagers,
+          [action.payload.role]: action.payload.value,
+        },
+      };
+    case UPDATE_WEREWOLF:
+      return {
+        ...state,
+        werewolves: {
+          ...state.werewolves,
+          [action.payload.role]: action.payload.value,
+        },
+      };
+    case CREATE_MASTER_VAMPIRE:
+      return {
+        ...state,
+        vampires: {
+          masterVampire: 1,
+        },
+      };
+    case REMOVE_MASTER_VAMPIRE:
+      return {
+        ...state,
+        vampires: {
+          masterVampire: 0,
+        },
+      };
+    case CREATE_CULTIST:
+      return {
+        ...state,
+        cultists: {
+          cultist: 1,
+        },
+      };
+    case REMOVE_CULTIST:
+      return {
+        ...state,
+        cultists: {
+          cultist: 0,
         },
       };
     default:

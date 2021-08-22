@@ -1,17 +1,12 @@
-// Werewolf faction roles
+// Werewolf faction identities
 export const UPDATE_WEREWOLF = "UPDATE_WEREWOLF";
-export const UPDATE_LONE_WEREWOLF = "UPDATE_LONE_WEREWOLF";
-export const UPDATE_MINION = "UPDATE_MINION";
 
-// Town roles
+// Town identities
 export const UPDATE_VILLAGER = "UPDATE_VILLAGER";
-export const UPDATE_SEER = "UPDATE_SEER";
-export const UPDATE_WITCH = "UPDATE_WITCH";
-export const UPDATE_MONARCH = "UPDATE_MONARCH";
-export const UPDATE_EXECUTIONER = "UPDATE_EXECUTIONER";
-export const UPDATE_HOOKER = "UPDATE_HOOKER";
 
-// Individual roles
-export const UPDATE_ZATCH = "UPDATE_ZATCH";
-export const UPDATE_MASTER_VAMPIRE = "UPDATE_MASTER_VAMPIRE";
-export const UPDATE_CULTIST = "UPDATE_CULTIST";
+// Individual identities
+export const CREATE_MASTER_VAMPIRE = "CREATE_MASTER_VAMPIRE";
+export const REMOVE_MASTER_VAMPIRE = "REMOVE_MASTER_VAMPIRE";
+
+export const CREATE_CULTIST = "CREATE_CULTIST";
+export const REMOVE_CULTIST = "REMOVE_CULTIST";

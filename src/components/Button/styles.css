@@ -1,0 +1,48 @@
+.btn--primary {
+  background-color: var(--primary);
+}
+
+.btn--secondary {
+  background-color: var(--secondary);
+  color: var(--secondary-dark);
+}
+
+.btn--outline-primary {
+  color: var(--primary-dark, #000000);
+  border: 1px solid var(--primary-dark);
+}
+
+.btn--primary:hover,
+.btn--outline-primary:hover {
+  background-color: var(--primary-dark);
+  color: #fff;
+}
+
+.btn--outline-secondary:hover {
+  color: var(--secondary, #000000);
+  border: 1px solid var(--secondary-dark);
+}
+
+.btn--secondary:hover,
+.btn--outline-secondary:hover {
+  background-color: var(--secondary-dark);
+  color: #fff;
+}
+
+.btn--disabled {
+  background-color: var(--disabled, #dddddd) !important;
+  color: #777777 !important;
+  cursor: initial;
+}
+
+.text--primary-dark {
+  color: var(--primary-dark);
+}
+
+.text--secondary-dark {
+  color: var(--secondary-dark);
+}
+
+.btn--danger {
+  background-color: var(--danger);
+}

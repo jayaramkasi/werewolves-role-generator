@@ -1,0 +1,15 @@
+.checkbox-primary {
+  background-color: var(--primary);
+}
+
+.checkbox-secondary {
+  background-color: var(--secondary);
+}
+
+.checkbox-primary-dark {
+  background-color: var(--primary-dark);
+}
+
+.checkbox-secondary-dark {
+  background-color: var(--secondary-dark);
+}

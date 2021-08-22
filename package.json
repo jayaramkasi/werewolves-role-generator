@@ -5,9 +5,15 @@
     "build": "vite build",
     "serve": "vite preview"
   },
+  "homepage": "https://jayaramkasi.github.io/werewolves-role-generator",
   "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
     "autoprefixer": "^10.2.6",
-    "beatle-ui": "0.0.12",
+    "babel-loader": "^8.2.2",
+    "beatle-ui": "^0.2.0",
+    "eslint": "^7.32.0",
     "postcss": "^8.3.5",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
@@ -15,9 +21,11 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "redux": "^4.1.0",
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "^2.2.4",
+    "vite-react-jsx": "^1.1.2"
   },
   "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.0",
     "@vitejs/plugin-react-refresh": "^1.3.1",
     "gh-pages": "^3.2.3",
     "vite": "^2.3.8"

@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Ancient",
+    "narrator": "When the player with ANCIENT dies, all Ability Cards and role-based abilities render ineffective. The vampires and werewolves still feed, the cultist still converts, and the villages still vote to lynch.",
+    "player": "You’re cursed with an ancient magic. If you are lynched during the Day Phase, all players will lose their special abilities. Ability Cards no longer apply. Special villagers become ordinary. The LONE WOLF retains his/her identity."
+  },
+  {
+    "name": "Bench Press",
+    "narrator": "  ",
+    "player": "You know the answer before everyone else. When BENCH PRESS is used, the village closes their eyes. You discretely guess who will be the next lynched. If correct, you may choose to save the selected. In addition, pick an additional player to lynch. If incorrect, you die."
+  },
+  {
+    "name": "Cockblock",
+    "narrator": "  ",
+    "player": "Stop your friend from scoring! Play this card to cancel an Ability before the Ability's effect has been enacted. (It is lost even if played on a fake Ability.) This ability can be used once during either phase."
+  },
+  {
+    "name": "Dark Pact",
+    "narrator": "  ",
+    "player": "You’re offered a deal with the devil. Secretly played during the night, you are immune to death until the following Night Phase. You will then die and be announced as a victim to the WITCH and the town. This ability can only be activated once and during a Night Phase."
+  },
+  {
+    "name": "Diseased",
+    "narrator": "",
+    "player": "If the wolves choose to eat you, they must skip feeding during the next night. As a WEREWOLF, if the village lynches you, they must skip the next vote. This ability is activated each time the holder is killed."
+  },
+  {
+    "name": "Echolocation",
+    "narrator": "  ",
+    "player": "If either of the two closest living players to your left and right are a WEREWOLF, CULTIST or VAMPIRE, the MODERATOR will announce 'evil has been located.' This ability can only be activated once and during a Day Phase."
+  },
+  {
+    "name": "Flower Power",
+    "narrator": "  ",
+    "player": "Be patient, good things take time. If you are among the final five members of the village, you can activate this Ability as any other Ability. However, you must announce your new power to the village.This ability can only be activated once and during a Day Phase."
+  },
+  {
+    "name": "Goblin Contract",
+    "narrator": "  ",
+    "player": "During the night, pick a player to offer a partnership. The MODERATOR will wake the chosen and ask if he/she will accept. If accepted, you win only when you're the final two alive. In exchange for accepting, the partner receives immunity through that Night Phase."
+  },
+  {
+    "name": "Haunt",
+    "narrator": "  ",
+    "player": "Your disembodied soul causes madness. If killed, you must select another player to join you in the afterlife.This ability can only be activated once."
+  },
+  {
+    "name": "Hindsight",
+    "narrator": "  ",
+    "player": "See things clearly. During the first Night Phase, the MODERATOR will show you 3 Identity or Ability cards that are not in play.This ability is only activated once."
+  },
+  {
+    "name": "Holy Water",
+    "narrator": "  ",
+    "player": "Blessed by the elusive Cleric, this card can be used to cleanse Lesser VAMPIRES or players the CULTIST has “converted.” This ability can be used once during the Day Phase."
+  },
+  {
+    "name": "Idol",
+    "narrator": "  ",
+    "player": "This medallion grants immunity. The IDOL protects any single player from being lynched.This ability can only be activated once and during a Day Phase. It must be played before the votes are cast."
+  },
+  {
+    "name": "Inquisitor",
+    "narrator": "  ",
+    "player": "You may question another player. If that player is evil, that player is lynched. If that player is good, the town revolts and kills (not lynches) you instead.This ability can only be activated once and during the Day Phase."
+  },
+  {
+    "name": "Jailor",
+    "narrator": "  ",
+    "player": "You may choose a player to keep in jail during the next Night Phase. This person will be saved from dying and will also be role-blocked.This ability can only be activated once and during a Day Phase."
+  },
+  {
+    "name": "Martyr",
+    "narrator": "  ",
+    "player": "After the MODERATOR announces a death, you may choose to take the place of the killed player — saving them from death by sacrificing yourself.This ability can only be activated once and during a Day Phase."
+  },
+  {
+    "name": "Mask",
+    "narrator": "The true identity of the player with MASK should not be revealed. Instead, always present this player as the opposite faction.",
+    "player": "Your true identity is disguised. If you are selected to be identified, the MODERATOR will show the opposite Identity.For example, if you are a VILLAGER, you will be identified as a WEREWOLF, and vice versa."
+  },
+  {
+    "name": "Mortician",
+    "narrator": "  ",
+    "player": "As you prepare dead bodies for burial, you uncover the truth! You may select a deceased player and ask the MODERATOR to announce their Identity and Ability.This ability can be used once during the Day Phase."
+  },
+  {
+    "name": "Old Age",
+    "narrator": "The player with OLD AGE dies during the Day Phase if/when there are 5 remaining players.",
+    "player": "You do not have long to live. You will die from old age if/when you survive to the final five players of the game.This ability will only be activated once."
+  },
+  {
+    "name": "Omen",
+    "narrator": "  ",
+    "player": "A sign of something to come, the OMEN is played during a Night Phase. The selected player will unknowingly begin the next Day Phase with two lynch votes against them.This ability can only be activated once."
+  },
+  {
+    "name": "Ordinary",
+    "narrator": "  ",
+    "player": "You are modest, plain and unadorned. You do not have a special ability."
+  },
+  {
+    "name": "Parity",
+    "narrator": "  ",
+    "player": "Select two players. The MODERATOR will announce 'same alignment' if they're on the same team, or 'different alignment' if on different teams.This ability can only be activated once and during the Day Phase."
+  },
+  {
+    "name": "Pickpocket",
+    "narrator": "  ",
+    "player": "You have a propensity for thievery. The PICKPOCKET may steal the Ability card of another player.This ability can only be activated once and during a Day Phase."
+  },
+  {
+    "name": "Pokerface",
+    "narrator": "  ",
+    "player": "She’s got me like nobody. Claim any Identity as your own. The village will each vote if you’re lying or telling the truth. If you’re falsely accused of lying, those villagers die. This ability can be used once during the Day Phase."
+  },
+  {
+    "name": "Possesion",
+    "narrator": "  ",
+    "player": "You have the power to possess! You will wake in the night and select a player. If that player dies during that night, you will secretly take over their role.This ability can be used once during the Night Phase."
+  },
+  {
+    "name": "Reaper",
+    "narrator": "When the player with REAPER votes, their vote counts twice.",
+    "player": "You beckon others towards death. During the Day Phase, your vote for who to lynch counts twice.If the player with the REAPER is killed, he/she chooses a successor."
+  },
+  {
+    "name": "Resonate",
+    "narrator": "  ",
+    "player": "When a Resonate verse plays, we skip it. Similarly, RESONATE may be played to skip either the next Day Phase or the next Night Phase.This card is played once during the Day Phase, and the village is informed what Phase will be skipped."
+  },
+  {
+    "name": "Revealer",
+    "narrator": "  ",
+    "player": "Uncover the truth. Choose to reveal either the Identity or Ability of a selected player.This ability can only be activated once and during a Day Phase."
+  },
+  {
+    "name": "Sleeping Potion",
+    "narrator": "  ",
+    "player": "Brew a sleeping potion and put two people to sleep early. These players may not participate in any further discussion or the next lynch vote.This ability can only be activated once and during a Day Phase."
+  },
+  {
+    "name": "Stronghold",
+    "narrator": "When the player with STRONGHOLD dies, you will not announce the death until the following Day Phase.",
+    "player": "You fortify yourself against all attacks – delaying the inevitable. You will survive one extra Phase before your death is announced.This ability will only be activated once."
+  },
+  {
+    "name": "Stupid Pills",
+    "narrator": "  ",
+    "player": "Did you take stupid pills this morning? STUPID PILLS makes everyone forget their Ability.Shuffle all other Ability cards in play (used and unused). Redeal all cards between the remaining players – starting with the player who played this card."
+  },
+  {
+    "name": "Tentacle Alien",
+    "narrator": "The TENTACLE ALIEN is played on two players. The effect of all Ability Cards and role-based abilities are swapped between these two players (e.g., if Player 1 is killed by the werewolves, Player 2 dies).",
+    "player": "You’ve been abducted and probed by tentacle-ridden aliens. TENTACLE ALIEN chooses two players to abduct. Any action targeting those two players are swapped for the rest of the game.This ability can only be activated once and during a Night Phase."
+  },
+  {
+    "name": "Undead",
+    "narrator": "  ",
+    "player": "If you die, you will be temporarily reincarnated. You may vote to lynch once more during the next Day Phase. You may not participate in the discussion and must remain sleeping if there is a Night Phase."
+  },
+  {
+    "name": "Vagabond",
+    "narrator": "  ",
+    "player": "You temporarily travel from the village. You will be immune to all effects from (and not participate in) the following Night Phase.This ability can only be activated once and during the Day Phase."
+  },
+  {
+    "name": "Weaponsmith",
+    "narrator": "  ",
+    "player": "You make deadly weapons for others! Choose a player who must immediately select a player to kill. (If the player you choose selects to kill you, it only has a 50% chance to work.)This ability can only be activated once and during the Day Phase."
+  }
+]

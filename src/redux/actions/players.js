@@ -1,10 +1,13 @@
 import {
   UPDATE_PLAYER_NAME,
+  UPDATE_PLAYER,
   UPDATE_PLAYER_HOOK,
-  UPDATE_PLAYER_ROLE,
   UPDATE_PLAYER_ABILITY,
   UPDATE_PLAYER_CULT,
-  UPDATE_PLAYER_VAMPIRE
+  UPDATE_PLAYER_VAMPIRE,
+  ADD_PLAYER,
+  REMOVE_PLAYER,
+  CLEAR_GAME,
 } from "../constants";
 
 /**
@@ -18,8 +21,8 @@ export const updatePlayerName = (index, name) => ({
   type: UPDATE_PLAYER_NAME,
   payload: {
     index,
-    name
-  }
+    name,
+  },
 });
 
 /**
@@ -33,23 +36,32 @@ export const changePlayerHook = (index, hook) => ({
   type: UPDATE_PLAYER_HOOK,
   payload: {
     index,
-    hook
-  }
+    hook,
+  },
 });
 
 /**
- * Updates a player's role
+ * Updates a player
  *
  * @param {number} index
- * @param {string} role
+ * @param {string}
  * @returns object
  */
-export const updatePlayerRole = (index, role) => ({
-  type: UPDATE_PLAYER_ROLE,
+export const updatePlayer = (
+  index,
+  { identity, ability, isVampire, isCult, alive, hook, used }
+) => ({
+  type: UPDATE_PLAYER,
   payload: {
     index,
-    role
-  }
+    ...(hook ? { hook } : {}),
+    ...(identity ? { identity } : {}),
+    ...(ability ? { ability } : {}),
+    isVampire: Boolean(isVampire),
+    isCult: Boolean(isCult),
+    ...(alive !== undefined ? { alive } : {}),
+    ...(used !== undefined ? { used } : {}),
+  },
 });
 
 /**
@@ -63,8 +75,8 @@ export const updatePlayerAbility = (index, ability) => ({
   type: UPDATE_PLAYER_ABILITY,
   payload: {
     index,
-    ability
-  }
+    ability,
+  },
 });
 
 /**
@@ -78,8 +90,8 @@ export const updatePlayerVampire = (index, isVampire) => ({
   type: UPDATE_PLAYER_VAMPIRE,
   payload: {
     index,
-    isVampire
-  }
+    isVampire,
+  },
 });
 
 /**
@@ -94,6 +106,21 @@ export const updatePlayerCult = (index, isCult) => ({
   type: UPDATE_PLAYER_CULT,
   payload: {
     index,
-    isCult
-  }
+    isCult,
+  },
+});
+
+export const addPlayer = () => ({
+  type: ADD_PLAYER,
+});
+
+export const removePlayer = (playerIndex) => ({
+  type: REMOVE_PLAYER,
+  payload: {
+    playerIndex,
+  },
+});
+
+export const clearGame = () => ({
+  type: CLEAR_GAME,
 });
